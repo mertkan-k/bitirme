@@ -1,0 +1,108 @@
+server - client yapisi / c# python
+drive userinden islem yapma
+translate
+mabil uygulama
+el yazisi algilama
+
+scholar googleship uzerinden tarama yapildi ve bisy bulunmadi (tool for questionnaire / anket tarama programi)
+
+resim uzerinde sekilleri ve yazilari algilama
+ornek bir resimle ogrenip diger resimleri o sekilde ayristirma
+once bos kagidi okutup sonra dolulari okutma
+	
+	sadece resimsel farkliliklari gostericek
+
+ornek taranan anketler:
+	tablo seklinde
+	input (yazi/el yazisi)
+	checkbox (isaretlemeli/tik)
+
+
+belli bir sekildeki anketi okuma
+
+okunacak anketin belli bir yapiya sahip olmasi
+
+kagitta belli bir yerde anket numarasi ve basligi olacak
+
+tablo seklinde anketler hazirlanip okunacak
+
+satirlar -> sorular
+sutunlar -> cevaplar
+
+sorular ve cevaplari belirleyecek sekilde baslarinda isaretler olacak
+
+once bos bir anket okutulacak, bazi islemler icin dogrudan bu resim kullanilacak
+	anket numarasinin ve basliginin okunmasi
+	soru ve cevap text lerinin	okunmasi
+	
+
+tablonun algilanmasi icin tablonun koselerine isaretciler koyulacak
+isaretcilar alginaip resim yamuk cekilmis ise
+	belirli bir orana kadar duzeltme yapilip islemlere devam edicek
+	eger fazla yamuk cekilmis ise sistem tarama yapmayacak ve bunu kullaniciya bildirecek (yanlis bir tarama yapilmamasi icin)
+
+cevaplamalar uykun sutunda yapilacak herhangi bir karalamayla belirlenecek
+sistem
+	sorular icin cevaplara gore bolgeleri belirleyecek
+	belirlenen bolgedeki renk pixelleri siyah ve beyaz olarak degistirilecek
+	siyah orani belirli bir miktari gectiyse o secenek isatlenmis sayilacak
+	
+
+isaretci bulunup resimden texte gecirilecek alanlar:
+	anket numarasi ve basliginin okunmasi
+	sorularin okunmasi
+	cevaplarin okunmasi
+
+siyah-beyaz farklili ile kullaniicdan
+
+el yazisi
+mobil / site
+
+google drive
+database
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
