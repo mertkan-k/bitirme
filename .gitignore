@@ -1,1 +1,3 @@
 tests/results/*
+src/trsh/*
+src/__pycache__/*
