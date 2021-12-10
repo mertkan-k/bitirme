@@ -9,6 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import xlsxwriter
 import statistics
+import glob
 
 from random import randint
 from pprint import pprint
@@ -346,10 +347,17 @@ class SurveyTester():
 			print("Survey path does not exist {}", self.surveyDir)
 			sys.exit(1)
 
-		self.surveyPaths = [f for f in os.listdir(self.surveyDir) if os.path.isfile(os.path.join(self.surveyDir, f))]
+		EXTENSIONS = ['.png', '.jpg']
+
+		self.surveyPaths = []
+		for f in os.listdir(self.surveyDir):
+			ext = os.path.splitext(f)[1]
+			if ext.lower() not in EXTENSIONS:
+				continue
+			self.surveyPaths.append(f)
 
 		if len(self.surveyPaths) == 0:
-			print("Survey path does not have any file {}", self.surveyDir)
+			print("Survey path does not have any file {}".format(self.surveyDir))
 			sys.exit(1)
 
 		Log("Survey file count {}".format(len(self.surveyPaths)))
